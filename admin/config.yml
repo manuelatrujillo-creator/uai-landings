@@ -59,6 +59,32 @@ collections:
 
           # --- Plan de estudios ---
           - { label: "Plan de estudios — Título de la sección", name: "plan_titulo", widget: "string" }
+          - label: "Plan de estudios — Años"
+            name: "plan_anios"
+            widget: "list"
+            label_singular: "Año"
+            summary: "{{year_label}} — {{year_sub}}"
+            fields:
+              - { label: "Año (ej. '1er Año')", name: "year_label", widget: "string" }
+              - { label: "Subtítulo (ej. 'Fundamentos del diseño')", name: "year_sub", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - label: "Materias / etiquetas"
+                name: "chips"
+                widget: "list"
+                field: { label: "Materia", name: "chip", widget: "string" }
+              - { label: "Insignia de título (dejar vacío si no aplica)", name: "badge", widget: "string", required: false, hint: "Ej: 'Título Intermedio: Técnico Universitario en Diseño de Comunicación Visual'" }
+
+          # --- Imágenes de fondo ---
+          - { label: "Imagen — Banner superior (descuento)", name: "img_header_banner", widget: "image" }
+          - { label: "Imagen — Fondo del hero (desktop)", name: "img_hero_desktop", widget: "image" }
+          - { label: "Imagen — Fondo del hero (mobile)", name: "img_hero_mobile", widget: "image" }
+          - { label: "Imagen — Diplomas (sección parallax)", name: "img_diplomas", widget: "image" }
+          - { label: "Imagen — Fondo sección 'Sobre la Universidad'", name: "img_beneficios", widget: "image" }
+
+          # --- Formulario de contacto ---
+          - { label: "Form — URL de envío (Zoho Form action)", name: "form_action_url", widget: "string", hint: "URL 'submit' del formulario de Zoho. Cambia si se duplica esta landing para otra carrera." }
+          - { label: "Form — URL de redirección post-envío", name: "form_redirect_url", widget: "string" }
+          - { label: "Form — Texto del botón de envío", name: "form_button_text", widget: "string" }
 
           # --- Áreas de desempeño profesional ---
           - { label: "Áreas — Eyebrow ('Salida laboral')", name: "areas_eyebrow", widget: "string" }
