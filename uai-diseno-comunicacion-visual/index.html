@@ -3340,10 +3340,15 @@ document.querySelectorAll('[data-counter]').forEach(el=>counterIO.observe(el));
 </script>
 
 <!-- Netlify Identity: permite procesar links de invitación/recuperación de contraseña
-     que apuntan a la raíz del sitio, y redirige al panel de edición -->
+     que apuntan a la raíz del sitio, y redirige al panel de edición.
+     Solo actúa si el link trae un token de invitación/confirmación/recuperación;
+     en una visita normal a la landing no hace nada. -->
+<script>
+  var __hashHasIdentityToken = /(invite_token|confirmation_token|recovery_token|access_token)=/.test(window.location.hash);
+</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
-  if (window.netlifyIdentity) {
+  if (window.netlifyIdentity && __hashHasIdentityToken) {
     window.netlifyIdentity.on("init", user => {
       if (user) {
         window.location.href = "/admin/";
