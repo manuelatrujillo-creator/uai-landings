@@ -1,0 +1,106 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Identity Widget + Git Gateway de Netlify se encargan del login.
+# Configurar en Netlify: Site settings > Identity > Enable Identity,
+# y Site settings > Identity > Services > Git Gateway > Enable.
+
+media_folder: "uai-diseno-comunicacion-visual/assets/uploads"
+public_folder: "/uai-diseno-comunicacion-visual/assets/uploads"
+
+collections:
+  - name: "landings"
+    label: "Landings"
+    files:
+      - file: "content/uai-diseno-comunicacion-visual.json"
+        label: "UAI · Lic. en Diseño de Comunicación Visual (Rosario)"
+        name: "uai_diseno_comunicacion_visual"
+        fields:
+          # --- Banner de descuento ---
+          - { label: "Descuento (%)", name: "discount_percent", widget: "string" }
+          - { label: "Condición del descuento", name: "discount_condition", widget: "string" }
+
+          # --- Hero ---
+          - { label: "Hero — Eyebrow (ej. 'UAI Rosario')", name: "hero_eyebrow", widget: "string" }
+          - { label: "Hero — Descripción", name: "hero_description", widget: "text" }
+          - { label: "Hero — Cohorte 1 (ej. 'Agosto 2026')", name: "cohort_1", widget: "string" }
+          - { label: "Hero — Cohorte 2 (ej. 'Abril 2027')", name: "cohort_2", widget: "string" }
+
+          # --- Card del formulario ---
+          - { label: "Form — Título ('¿Querés recibir información?')", name: "form_card_title", widget: "string" }
+          - { label: "Form — Subtítulo", name: "form_card_subtitle", widget: "string" }
+          - { label: "Form — Mensaje de éxito al enviar", name: "form_success_message", widget: "text" }
+
+          # --- Franja de características (4 columnas) ---
+          - { label: "Característica 1 — Etiqueta (ej. 'Duración')", name: "car1_label", widget: "string" }
+          - { label: "Característica 1 — Valor (ej. '4 años')", name: "car1_value", widget: "string" }
+          - { label: "Característica 1 — Detalle (ej. '8 cuatrimestres')", name: "car1_sub", widget: "string" }
+          - { label: "Característica 2 — Etiqueta (ej. 'Modalidad')", name: "car2_label", widget: "string" }
+          - { label: "Característica 2 — Valor", name: "car2_value", widget: "string" }
+          - { label: "Característica 2 — Detalle", name: "car2_sub", widget: "string" }
+          - { label: "Característica 3 — Etiqueta (ej. 'Título intermedio')", name: "car3_label", widget: "string" }
+          - { label: "Característica 3 — Valor", name: "car3_value", widget: "string" }
+          - { label: "Característica 3 — Detalle", name: "car3_sub", widget: "string" }
+          - { label: "Característica 4 — Etiqueta (ej. 'Título de grado')", name: "car4_label", widget: "string" }
+          - { label: "Característica 4 — Valor", name: "car4_value", widget: "string" }
+          - { label: "Característica 4 — Detalle", name: "car4_sub", widget: "string" }
+
+          # --- Sección "Sobre la carrera" ---
+          - { label: "Sobre la carrera — Título principal (admite <em>...</em>)", name: "sobre_carrera_lede", widget: "string" }
+          - { label: "Sobre la carrera — Texto", name: "sobre_carrera_text", widget: "text" }
+          - { label: "Pilar 1 — Título", name: "pillar1_title", widget: "string" }
+          - { label: "Pilar 1 — Texto", name: "pillar1_text", widget: "text" }
+          - { label: "Pilar 2 — Título (admite <br> para salto de línea)", name: "pillar2_title", widget: "string" }
+          - { label: "Pilar 2 — Texto", name: "pillar2_text", widget: "text" }
+          - { label: "Pilar 3 — Título", name: "pillar3_title", widget: "string" }
+          - { label: "Pilar 3 — Texto", name: "pillar3_text", widget: "text" }
+          - { label: "Video card — Título (admite <br>)", name: "video_card_title", widget: "string" }
+
+          # --- Plan de estudios ---
+          - { label: "Plan de estudios — Título de la sección", name: "plan_titulo", widget: "string" }
+
+          # --- Áreas de desempeño profesional ---
+          - { label: "Áreas — Eyebrow ('Salida laboral')", name: "areas_eyebrow", widget: "string" }
+          - { label: "Áreas — Título de la sección", name: "areas_title", widget: "string" }
+          - { label: "Áreas — Bajada (admite <br>)", name: "areas_desc", widget: "text" }
+          - { label: "Área 1 — Título", name: "area1_title", widget: "string" }
+          - { label: "Área 1 — Texto", name: "area1_text", widget: "text" }
+          - { label: "Área 2 — Título", name: "area2_title", widget: "string" }
+          - { label: "Área 2 — Texto", name: "area2_text", widget: "text" }
+          - { label: "Área 3 — Título", name: "area3_title", widget: "string" }
+          - { label: "Área 3 — Texto", name: "area3_text", widget: "text" }
+
+          # --- Egresados ---
+          - { label: "Egresados — Eyebrow", name: "egresados_eyebrow", widget: "string" }
+          - { label: "Egresados — Título (admite <span>...</span>)", name: "egresados_title", widget: "string" }
+          - { label: "Egresados — Bajada", name: "egresados_desc", widget: "text" }
+          - { label: "Egresado — Nombre", name: "egresado_name", widget: "string" }
+          - { label: "Egresado — Profesión / lugar de trabajo", name: "egresado_role", widget: "string" }
+          - { label: "Egresado — Cita / testimonio", name: "egresado_quote", widget: "text" }
+          - { label: "Video testimonio — URL embed de Vimeo", name: "video_testimonio_url", widget: "string" }
+          - { label: "Video testimonio — Título (accesibilidad)", name: "video_testimonio_title", widget: "string" }
+
+          # --- Sobre la Universidad ---
+          - { label: "Sobre la Universidad — Pill ('+DE 30 AÑOS')", name: "sobre_uni_pill", widget: "string" }
+          - { label: "Sobre la Universidad — Eyebrow", name: "sobre_uni_eyebrow", widget: "string" }
+          - { label: "Sobre la Universidad — Título", name: "sobre_uni_title", widget: "string" }
+          - { label: "Sobre la Universidad — Texto", name: "sobre_uni_text", widget: "text" }
+
+          # --- Pre-footer / CTA final ---
+          - { label: "Pre-footer — Eyebrow", name: "footer_eyebrow", widget: "string" }
+          - { label: "Pre-footer — Título (admite <br>)", name: "prefooter_title", widget: "string" }
+          - { label: "Pre-footer — Texto", name: "prefooter_text", widget: "text" }
+
+          # --- Footer ---
+          - { label: "Footer — Texto institucional (debajo del logo)", name: "footer_brand_text", widget: "text" }
+          - { label: "Footer — Dirección de la sede (admite <br>)", name: "footer_address", widget: "text" }
+          - { label: "Footer — Año del copyright", name: "footer_copyright_year", widget: "string" }
+
+          # --- WhatsApp flotante ---
+          - { label: "WhatsApp — Teléfono (sin +, ej. 5491168116052)", name: "whatsapp_phone", widget: "string" }
+          - { label: "WhatsApp — Mensaje predefinido", name: "whatsapp_message", widget: "text" }
+
+  # Para agregar una nueva landing: duplicar la carpeta de una existente,
+  # crear su propio archivo content/<slug>.json, y agregar otra entrada
+  # bajo "files" (arriba) apuntando a ese archivo.
