@@ -36,6 +36,46 @@
   "video_card_title": "Conocé más<br>sobre la carrera",
 
   "plan_titulo": "Plan de estudios — Licenciatura en Diseño de Comunicación Visual",
+  "plan_anios": [
+    {
+      "year_label": "1er Año",
+      "year_sub": "Fundamentos del diseño",
+      "description": "Se abordan las bases técnicas, conceptuales e históricas de la disciplina. El estudiante se introduce en la práctica proyectual, incorpora las herramientas digitales fundamentales y desarrolla las primeras competencias en lenguaje visual.",
+      "chips": ["Taller de Diseño I", "Morfología", "Tipografía", "Fotografía"],
+      "badge": ""
+    },
+    {
+      "year_label": "2do Año",
+      "year_sub": "Profundización",
+      "description": "Se incorporan herramientas de pensamiento estratégico, marketing aplicado al diseño y maquetación editorial. El estudiante consolida su mirada proyectual y comienza a articular criterios profesionales.",
+      "chips": ["Tipografía II", "Marketing Aplicado al Diseño", "Pensamiento Creativo", "Maquetación Editorial"],
+      "badge": ""
+    },
+    {
+      "year_label": "3er Año",
+      "year_sub": "Especialización y cierre del ciclo técnico",
+      "description": "El estudiante profundiza en diseño editorial, audiovisual y publicitario, integrando los conocimientos adquiridos en proyectos de mayor complejidad. Al finalizar el año obtiene el Título Intermedio.",
+      "chips": ["Diseño Editorial", "Diseño Audiovisual", "Diseño Publicitario", "Práctica y Ética Profesional"],
+      "badge": "Título Intermedio: Técnico Universitario en Diseño de Comunicación Visual"
+    },
+    {
+      "year_label": "4to Año",
+      "year_sub": "Práctica profesional y Trabajo Final",
+      "description": "Se aborda el diseño de interfaces digitales, la gestión de proyectos y la práctica profesional supervisada. El ciclo culmina con el desarrollo del Trabajo Final, instancia que certifica al egresado como Licenciado/a en Diseño de Comunicación Visual.",
+      "chips": ["Interfaces Digitales I y II", "Gestión de Proyectos", "Trabajo Final", "Práctica Profesional Supervisada"],
+      "badge": "Título Final: Licenciado/a en Diseño de Comunicación Visual"
+    }
+  ],
+
+  "form_action_url": "https://forms.zohopublic.com/universidaduai/form/LicenciaturaenDiseodeComunicacinVisual/formperma/GZq11VUDJoaeFIBpjt3FLQcTqY7SjTjmCw-QusBwicQ/htmlRecords/submit",
+  "form_redirect_url": "https://ingreso.uai.edu.ar/gracias2",
+  "form_button_text": "Quiero más información",
+
+  "img_header_banner": "/uai-diseno-comunicacion-visual/assets/header-banner.jpg",
+  "img_hero_desktop": "/uai-diseno-comunicacion-visual/assets/hero-bg.jpg",
+  "img_hero_mobile": "/uai-diseno-comunicacion-visual/assets/hero-bg.jpg",
+  "img_diplomas": "/uai-diseno-comunicacion-visual/assets/diplomas.jpg",
+  "img_beneficios": "/uai-diseno-comunicacion-visual/assets/beneficios-bg.jpg",
 
   "areas_eyebrow": "Salida laboral",
   "areas_title": "Áreas de desempeño profesional",
