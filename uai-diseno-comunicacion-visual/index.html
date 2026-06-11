@@ -3347,5 +3347,21 @@ document.querySelectorAll('[data-counter]').forEach(el=>counterIO.observe(el));
 })();
 </script>
 
+<!-- Netlify Identity: permite procesar links de invitación/recuperación de contraseña
+     que apuntan a la raíz del sitio, y redirige al panel de edición -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (user) {
+        window.location.href = "/admin/";
+      }
+    });
+    window.netlifyIdentity.on("login", () => {
+      window.location.href = "/admin/";
+    });
+  }
+</script>
+
 </body>
 </html>
