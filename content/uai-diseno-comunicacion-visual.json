@@ -1,0 +1,73 @@
+{
+  "discount_percent": "60",
+  "discount_condition": "*Beneficio para ingresantes.",
+  "hero_eyebrow": "UAI Rosario",
+  "hero_description": "Formate como profesional para proyectar, gestionar y producir comunicaciones visuales con impacto.",
+  "cohort_1": "Agosto 2026",
+  "cohort_2": "Abril 2027",
+
+  "form_card_title": "¿Querés recibir información?",
+  "form_card_subtitle": "Dejanos tus datos y nosotros te la enviamos",
+  "form_success_message": "¡Gracias! Te contactaremos en menos de 24 hs hábiles.",
+
+  "car1_label": "Duración",
+  "car1_value": "4 años",
+  "car1_sub": "8 cuatrimestres",
+  "car2_label": "Modalidad",
+  "car2_value": "Presencial híbrida",
+  "car2_sub": "UAI Rosario",
+  "car3_label": "Título intermedio",
+  "car3_value": "Téc. Univ. en Diseño de Comunicación Visual",
+  "car3_sub": "A los 3 años",
+  "car4_label": "Título de grado",
+  "car4_value": "Lic. en Diseño de Comunicación Visual",
+  "car4_sub": "Reconocimiento oficial",
+
+  "sobre_carrera_lede": "Una formación <em style=\"color: #131a5e\">integral</em> en comunicación visual.",
+  "sobre_carrera_text": "Diseño como práctica cultural, social y tecnológica. Pensamiento crítico para construir comunicaciones visuales contemporáneas.",
+
+  "pillar1_title": "Dónde vas a trabajar",
+  "pillar1_text": "Estudios de diseño, agencias, editoriales, productoras, UX/UI o estrategia visual.",
+  "pillar2_title": "El profesional<br>que vas a ser",
+  "pillar2_text": "Resolvé problemáticas complejas y liderá proyectos interdisciplinarios.",
+  "pillar3_title": "Por qué elegir UAI",
+  "pillar3_text": "Docentes profesionales, talleres prácticos y título intermedio a los 3 años.",
+
+  "video_card_title": "Conocé más<br>sobre la carrera",
+
+  "plan_titulo": "Plan de estudios — Licenciatura en Diseño de Comunicación Visual",
+
+  "areas_eyebrow": "Salida laboral",
+  "areas_title": "Áreas de desempeño profesional",
+  "areas_desc": "Durante la formación vas a adquirir herramientas para desarrollarte<br>en campos profesionales como:",
+  "area1_title": "Estudios y Agencias de Diseño",
+  "area1_text": "Diseño visual para marcas, campañas publicitarias y proyectos en consultoras creativas y agencias.",
+  "area2_title": "Diseño Editorial y Medios",
+  "area2_text": "Revistas, libros, publicaciones periodísticas y plataformas digitales editoriales.",
+  "area3_title": "Diseño Digital e Interfaces",
+  "area3_text": "Diseño web, UX/UI y experiencias digitales para empresas, organizaciones y productoras.",
+
+  "egresados_eyebrow": "Egresados UAI",
+  "egresados_title": "Historias que <span class=\"egresados__head-accent\">inspiran</span>",
+  "egresados_desc": "Conocé a quienes ya están desarrollando su carrera en el campo del diseño.",
+  "egresado_name": "Kevin Gartner",
+  "egresado_role": "Profesión · Lugar de trabajo",
+  "egresado_quote": "\"Estudiar en UAI me permitió desarrollar la mirada crítica que aplico hoy en cada proyecto.\"",
+
+  "sobre_uni_pill": "+DE 30 AÑOS",
+  "sobre_uni_eyebrow": "Sobre la Universidad",
+  "sobre_uni_title": "Treinta años construyendo profesionales",
+  "sobre_uni_text": "Modelo educativo descentralizado, participativo y por objetivos. Construimos una oferta basada en competencias profesionales que aportan al desarrollo social y productivo.",
+
+  "footer_eyebrow": "Inscripciones 2027 abiertas",
+  "footer_copyright_year": "2026",
+  "prefooter_title": "¿Te gustaría que te contacten<br>para más información?",
+  "prefooter_text": "Completá el formulario y un asesor educativo te contactará a la brevedad.",
+  "footer_brand_text": "Treinta años formando profesionales con mirada crítica, estratégica y comprometida con el desarrollo social.",
+  "footer_address": "Av. Carlos Pellegrini 1620<br>S2000BUQ Rosario, Santa Fe",
+
+  "whatsapp_phone": "5491168116052",
+  "whatsapp_message": "Hola, quiero recibir información de la Lic. en Diseño de Comunicación Visual.",
+  "video_testimonio_url": "https://player.vimeo.com/video/1200197879?byline=0&portrait=0&title=0&dnt=1",
+  "video_testimonio_title": "Testimonio de Kevin Gartner — Egresado UAI"
+}
