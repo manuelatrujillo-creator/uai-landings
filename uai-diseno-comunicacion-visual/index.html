@@ -133,7 +133,7 @@ h3{font-size:clamp(1.2rem,2vw,1.6rem);font-weight:700}
 /* ===== Banner promo (HTML/CSS responsivo, sin imagen) ===== */
 .banner{
   position:relative;display:block;
-  background:var(--img-banner, url('assets/header-banner.jpg')) center center/cover no-repeat;
+  background:var(--img-banner, url('/uai-diseno-comunicacion-visual/assets/header-banner.jpg')) center center/cover no-repeat;
   overflow:hidden;
   border-bottom:1px solid rgba(255,255,255,.06);
   padding:clamp(12px,1.4vw,20px) 0;
@@ -307,7 +307,7 @@ h3{font-size:clamp(1.2rem,2vw,1.6rem);font-weight:700}
 /* Photo layer — usa <img> con object-fit:cover para cubrir 100% del hero siempre */
 .hero__bg{
   position:absolute;inset:0;z-index:0;
-  background:var(--img-hero, url('assets/hero-bg.jpg')) center center/cover no-repeat;
+  background:var(--img-hero, url('/uai-diseno-comunicacion-visual/assets/hero-bg.jpg')) center center/cover no-repeat;
   width:100%;height:100%;
 }
 .hero__bg::after{
@@ -1051,7 +1051,7 @@ h3{font-size:clamp(1.2rem,2vw,1.6rem);font-weight:700}
 }
 .parallax__bg{
   position:absolute;left:-2%;right:-2%;top:-25%;bottom:-25%;
-  background:var(--img-diplomas, url('assets/diplomas.jpg')) center 30%/cover;
+  background:var(--img-diplomas, url('/uai-diseno-comunicacion-visual/assets/diplomas.jpg')) center 30%/cover;
   transform:translate3d(0, calc((var(--p) - .5) * -18%), 0);
   will-change:transform;
   z-index:1;
@@ -1253,7 +1253,7 @@ iframe.egresados__video-el{
   padding:32px 32px 36px;
   display:flex;flex-direction:column;justify-content:space-between;
   gap:24px;
-  background-image:linear-gradient(180deg,rgba(2,2,44,.25) 0%,rgba(2,2,44,.55) 100%),var(--img-beneficios, url('assets/beneficios-bg.jpg'));
+  background-image:linear-gradient(180deg,rgba(2,2,44,.25) 0%,rgba(2,2,44,.55) 100%),var(--img-beneficios, url('/uai-diseno-comunicacion-visual/assets/beneficios-bg.jpg'));
   background-size:cover;background-position:center 25%;
   box-shadow:var(--shadow);
   color:#fff;
@@ -1678,7 +1678,7 @@ iframe.egresados__video-el{
   /* En mobile la imagen cubre el hero entero como fondo y se funde abajo con #661125 (bordó) */
   .hero{
     padding:50vw 0 48px;  /* texto sube — la foto se sigue viendo arriba pero deja más visible */
-    background:#661125 var(--img-hero-mobile, url('assets/hero-bg.jpg')) center top/cover no-repeat;
+    background:#661125 var(--img-hero-mobile, url('/uai-diseno-comunicacion-visual/assets/hero-bg.jpg')) center top/cover no-repeat;
     min-height:auto;
   }
   /* No usar .hero__bg ni .hero__photo-mobile en mobile (se usa el bg de .hero) */
@@ -2292,7 +2292,7 @@ if( document.readyState == "complete" ){
 <header class="header">
   <div class="container header__inner">
     <a href="#" class="logo" aria-label="UAI - Universidad Abierta Interamericana">
-      <img src="assets/uai-logo.png" alt="Universidad Abierta Interamericana">
+      <img src="/uai-diseno-comunicacion-visual/assets/uai-logo.png" alt="Universidad Abierta Interamericana">
     </a>
     <nav class="nav" id="mainNav">
       <a href="#sobre-carrera">Carrera</a>
@@ -2326,14 +2326,14 @@ if( document.readyState == "complete" ){
       <span class="banner-promo__mat">MATRÍCULA</span>
       <p class="banner-promo__cond" data-cms="discount_condition">*Beneficio para ingresantes.</p>
     </div>
-    <img class="banner-promo__stamp" src="assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
+    <img class="banner-promo__stamp" src="/uai-diseno-comunicacion-visual/assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
   </div>
 </section>
 
 <!-- ============ HERO ============ -->
 <section class="hero" id="hero">
   <div class="hero__bg" style="margin: 0px"></div>
-  <img class="hero__photo-mobile" src="assets/hero-version-mobile.jpg" alt="" loading="eager" aria-hidden="true">
+  <img class="hero__photo-mobile" src="/uai-diseno-comunicacion-visual/assets/hero-version-mobile.jpg" alt="" loading="eager" aria-hidden="true">
   <div class="hero__chev" aria-hidden="true">
     <svg viewBox="0 0 600 700" preserveAspectRatio="xMaxYMid slice">
       <defs>
@@ -2344,9 +2344,9 @@ if( document.readyState == "complete" ){
       <rect width="600" height="700" fill="url(#heroChevPat)"/>
     </svg>
   </div>
-  <div class="hero__mark" aria-hidden="true"><img src="assets/30-outline.png" alt=""><small>1995&nbsp;·&nbsp;2025</small></div>
+  <div class="hero__mark" aria-hidden="true"><img src="/uai-diseno-comunicacion-visual/assets/30-outline.png" alt=""><small>1995&nbsp;·&nbsp;2025</small></div>
   <div class="hero__strip" aria-hidden="true"></div>
-  <img class="hero__cuotas-stamp" src="assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
+  <img class="hero__cuotas-stamp" src="/uai-diseno-comunicacion-visual/assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
   <div class="container">
     <div class="hero__grid">
       <div class="hero__left reveal">
@@ -2368,7 +2368,7 @@ if( document.readyState == "complete" ){
         </div>
       </div>
       <div class="form-card reveal">
-        <img class="form-card__stamp" src="assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
+        <img class="form-card__stamp" src="/uai-diseno-comunicacion-visual/assets/3cuotas-landing.png" alt="3 cuotas sin interés" loading="eager">
         <h3 class="form-card__title" data-cms="form_card_title">¿Querés recibir información?</h3>
         <p class="form-card__subtitle" data-cms="form_card_subtitle">Dejanos tus datos y nosotros te la enviamos</p>
         <form id="form" class="zoho-form" data-cms="form_action_url" action='https://forms.zohopublic.com/universidaduai/form/LicenciaturaenDiseodeComunicacinVisual/formperma/GZq11VUDJoaeFIBpjt3FLQcTqY7SjTjmCw-QusBwicQ/htmlRecords/submit' name="form" method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
@@ -2436,8 +2436,8 @@ if( document.readyState == "complete" ){
 <!-- ============ BANNER FACULTAD ============ -->
 <section class="banner-facultad" aria-label="Facultad de Diseño UAI">
   <picture>
-    <source media="(max-width:560px)" srcset="assets/banner-facultad-mobile.jpg">
-    <img src="assets/banner-facultad.jpg" alt="Facultad de Diseño UAI" loading="lazy">
+    <source media="(max-width:560px)" srcset="/uai-diseno-comunicacion-visual/assets/banner-facultad-mobile.jpg">
+    <img src="/uai-diseno-comunicacion-visual/assets/banner-facultad.jpg" alt="Facultad de Diseño UAI" loading="lazy">
   </picture>
 </section>
 
@@ -2516,7 +2516,7 @@ if( document.readyState == "complete" ){
           ></iframe>
         </div>
         <div class="sc-video-card__badge" aria-hidden="true">
-          <img src="assets/escudo-ciencias-comunicacion.png" alt="">
+          <img src="/uai-diseno-comunicacion-visual/assets/escudo-ciencias-comunicacion.png" alt="">
         </div>
       </div>
     </div>
@@ -2683,7 +2683,7 @@ if( document.readyState == "complete" ){
             </text>
           </svg>
           <div class="egresados__avatar-img">
-            <img src="assets/kevin-gartner.jpg" alt="Kevin Gartner — Egresado UAI">
+            <img src="/uai-diseno-comunicacion-visual/assets/kevin-gartner.jpg" alt="Kevin Gartner — Egresado UAI">
           </div>
         </div>
         <div class="egresados__info">
@@ -2699,7 +2699,7 @@ if( document.readyState == "complete" ){
 <!-- ============ BANNER 3 CUOTAS ============ -->
 <section class="cuotas-banner" aria-label="Beneficio 3 cuotas sin interés" style="background-color: rgb(102, 17, 37)">
   <div class="container">
-    <img class="cuotas-banner__img" src="assets/banner-cuotas.jpg" alt="Pagá tu matrícula en 3 cuotas sin interés · UAI 30 años" loading="lazy" style="max-width: 880px; width: 100%; height: auto; margin: 0 auto; display: block; border-radius: 0">
+    <img class="cuotas-banner__img" src="/uai-diseno-comunicacion-visual/assets/banner-cuotas.jpg" alt="Pagá tu matrícula en 3 cuotas sin interés · UAI 30 años" loading="lazy" style="max-width: 880px; width: 100%; height: auto; margin: 0 auto; display: block; border-radius: 0">
   </div>
 </section>
 
@@ -2721,7 +2721,7 @@ if( document.readyState == "complete" ){
           <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M7 17L17 7M7 7h10v10"/></svg></span>
           Conocé más
         </a>
-        <div class="uni-left__mark" aria-hidden="true"><img src="assets/30-outline.png" alt=""></div>
+        <div class="uni-left__mark" aria-hidden="true"><img src="/uai-diseno-comunicacion-visual/assets/30-outline.png" alt=""></div>
       </div>
       <div class="uni-right reveal" style="width: 640px; padding: 53px 32px 43px; gap: 0px; height: 581px; border-radius: 30px">
         <span class="carousel__counter" id="carouselCounter"><b>01</b> / 06</span>
@@ -2885,7 +2885,7 @@ para más información?</h2>
     <div class="footer__inner">
       <div class="footer__brand">
         <a href="#" class="logo">
-          <img src="assets/logo-uai.svg" alt="Universidad Abierta Interamericana">
+          <img src="/uai-diseno-comunicacion-visual/assets/logo-uai.svg" alt="Universidad Abierta Interamericana">
         </a>
         <p data-cms="footer_brand_text">Treinta años formando profesionales con mirada crítica, estratégica y comprometida con el desarrollo social.</p>
       </div>
